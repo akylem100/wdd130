@@ -1,0 +1,43 @@
+* {
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.mainimage {
+    width: 100%
+}
+
+.img_collection {
+    border-radius: 1000%;
+    border: 10px solid #3D3B3C;
+    width: 18%
+}
+
+.maintext {
+    position: absolute;
+    background-color: #000000;
+    color: #000000
+    
+}
+
+/* #img1 {
+    margin: 0 500px 0 0;
+} */
+
+#img2 {
+    margin: 0 50px;
+}
+
+/* #img3 {
+    margin: 0 0 0 500px; 
+} */
+
+.greycontentbar {
+    background-color: gray;
+    margin: 300 300 100 100;
+    padding: 20px;
+}

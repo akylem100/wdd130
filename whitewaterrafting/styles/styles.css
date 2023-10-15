@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Raleway:wght@200&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -9,10 +11,16 @@
 }
 
 #hero-img {
-    width: 100%
+    width: 100%;
 }
 
 body {
+    font-family: 'Raleway', sans-serif;
+    max-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    text-align: center;
     background-color: #fff2e2
 }
 
@@ -27,26 +35,43 @@ header {
 
 nav a {
     color: #fff2e2;
-    text-decoration: none
+    text-decoration: none;
+    padding: 35px
 }
 
 .home-title {
-    color: white
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 2.7em;
+    color: #341FBF
+}
+
+.card-img {
+    margin: 200px;
+    border: 10px solid #023373
+}
+
+h2 {
+    margin: 0;
+    color: #341FBF
 }
 
 h4 {
-    color: #FFFFFF
+    color: rgb(59, 59, 59)
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: #4779bb;
     color: #396E95
 }
 
 .book, .join {
     background-color: #341FBF;
     color: #FFFFFF;
-    text-decoration: none
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px
 }
 
 .book:hover, .join:hover {
@@ -55,13 +80,20 @@ nav a:hover {
 }
 
 .icon{
-    width: 80px
+    width: 80px;
+    padding-top: 10px
+}
+
+.home-grid h2{
+    color: rgb(59, 59, 59)
 }
 
 .msg {
     text-align: center;
     background-color: #023373;
-    margin: 20px
+    line-height: 1.5em;
+    margin: 20px;
+    padding: 15px
 }
 
 .msg h2 {
@@ -79,8 +111,13 @@ nav a:hover {
     color: #FFFFFF
 }
 
+main section img {
+    box-sizing: border-box
+}
+
 footer {
     background-color: #023373;
+    margin-top: 200px;
     margin-bottom: 20px
 }
 
