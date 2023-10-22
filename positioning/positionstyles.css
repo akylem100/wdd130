@@ -91,27 +91,28 @@
 } 
 /* Activity 4 styles */ 
 .content4 {
-  display: grid;
+  display: flex;
   height: 400px;
+  grid-template-columns: 1fr 1fr;
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
+  width: 300px; 
+  height: 450px; 
   background-color: red; 
 } 
 .green4 {
-  width: 100px; 
-  height: 100px; 
+  width: 350px; 
+  height: 150px; 
   background-color: green; 
 } 
 .yellow4 {
-  width: 100px; 
-  height: 100px; 
+  width: 350px; 
+  height: 150px; 
   background-color: gold; 
 } 
 .blue4 {
-  width: 100px; 
-  height: 100px; 
+  width: 350px; 
+  height: 150px; 
   background-color: blue; 
 } 
 /* Activity 5 styles */ 
@@ -120,50 +121,69 @@
   height: 400px;
 }
 .red5 { 
-  width: 100px; 
+  width: 600px; 
   height: 100px; 
   background-color: red; 
 } 
 .green5 { 
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
+  position: relative;
+  z-index: 2
 
 } 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+  width: 600px; 
+  height: 285px; 
+  background-color: rgb(249, 222, 71); 
+  float: right;
+  text-align: left;
+  margin: -200px -5px;
+  z-index: 1;
+  position: relative
 
 } 
 .blue5 {
-  width: 100px; 
+  width: 600px; 
   height: 100px; 
-  background-color: blue; 
+  background-color: rgb(72, 0, 255); 
+  margin-top: 85px;
 } 
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  display: grid;
+  grid-template-columns: 6fr;
+  grid-template-rows: 6fr;
 }
 .red6 {
-  width: 100px; 
-  height: 100px; 
+  z-index: 1;
+  width: 400px; 
+  height: 200px; 
   background-color: red; 
 } 
 .green6 {
-  width: 100px; 
-  height: 100px; 
+  z-index: 4;
+  width: 150px; 
+  height: 150px; 
   background-color: green; 
 } 
 .yellow6 {
-  width: 100px; 
-  height: 100px; 
+  z-index: 3;
+  width: 150px; 
+  height: 300px; 
   background-color: gold; 
 } 
 .blue6 {
-  width: 100px; 
-  height: 100px; 
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+  width: 350px; 
+  height: 350px; 
   background-color: blue; 
+  grid-column: 3/6;
+  grid-row: 3/6
 } 
 
 
