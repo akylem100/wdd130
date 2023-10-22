@@ -150,7 +150,7 @@
   background-color: rgb(72, 0, 255); 
   margin-top: 85px;
 } 
-/* Activity 6 styles */ 
+/* Activity 6 styles. */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
   display: grid;
