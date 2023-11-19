@@ -281,6 +281,11 @@ footer p a:hover {
     font-size: 2.4em
 }
 
+#finalcomment {
+    color: black;
+    font-size: 0.9em
+}
+
 .aboutusimages {
     max-width: 44%;
     border: 10px solid #023373;
