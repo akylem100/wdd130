@@ -225,15 +225,15 @@ footer p a:hover {
     text-decoration: underline
 }
 
-#aboutustitle {
+.aboutustitle {
     font-family: 'Monomaniac One', 'Raleway', sans-serif;
     font-size: 2.7em;
     color: #396E95
 }
 
-#hero-msg h7 {
+.endingmessage {
     text-decoration: line-through;
-    font-size:0.8em
+    font-size:0.5em
 }
 
 #hero-msg h6 {
